@@ -1,24 +1,21 @@
-# flipvlan
+# flipvlan #
 
-# About
-flipvlan.py\n
+# About #
+flipvlan.py
 
-Flip all VLANs on a switch to a second VLAN\n
-19-12-2017 G. de Boer - aaZoo\n
-Contactdetails: gert-jan@aazoo.nl\n
+Flip all VLANs on a switch to a second VLAN  
+19-12-2017 G. de Boer - aaZoo  
+Contactdetails: gert-jan@aazoo.nl  
 
-Usage: ./flipvlan <IP of switch> <original VLAN> <new VLAN>\n
+Usage: ./flipvlan <IP of switch> <original VLAN> <new VLAN>  
 
-You will need netmiko and ciscoconfparse python libraries\n
+You will need netmiko and ciscoconfparse python libraries  
 
-# Installation instructions
+# Installation instructions #
 
-## Ubuntu:
-\# sudo apt install python-netmiko
-
-\# git clone https://github.com/mpenning/ciscoconfparse.git
-
-\# cd ciscoconfparse
-
-\# sudo python setup.py install
+## Ubuntu ##
+\# sudo apt install python-netmiko  
+\# git clone https://github.com/mpenning/ciscoconfparse.git  
+\# cd ciscoconfparse  
+\# sudo python setup.py install  
 
