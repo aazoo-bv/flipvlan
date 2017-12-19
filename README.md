@@ -18,6 +18,10 @@ You will need netmiko and ciscoconfparse python libraries
 ##Ubuntu:
 -------
 \# sudo apt install python-netmiko
+
 \# git clone https://github.com/mpenning/ciscoconfparse.git
+
 \# cd ciscoconfparse
+
 \# sudo python setup.py install
+
