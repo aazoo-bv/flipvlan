@@ -1,6 +1,6 @@
 # flipvlan
 
-#About
+# About
 =====
 flipvlan.py
 
@@ -12,10 +12,10 @@ Usage: ./flipvlan <IP of switch> <original VLAN> <new VLAN>
 
 You will need netmiko and ciscoconfparse python libraries
 
-#Installation instructions
+# Installation instructions
 =========================
 
-##Ubuntu:
+## Ubuntu:
 -------
 \# sudo apt install python-netmiko
 
