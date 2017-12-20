@@ -42,7 +42,7 @@ for config_row in config_reader:
   net_connect.enable()
   
   # Fetch current configuration
-  run_config = net_connect.send_command("show run")
+  run_config = net_connect.send_command("show run all")
   run_config = run_config.splitlines()
   
   # Parse configuration
